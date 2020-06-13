@@ -56,11 +56,16 @@ body{
 	width:1000px;
 	height:300px;
 }
+.h1_p{
+	text-align:center;
+}
 h1{
 	position:relative;
 	text-align:center;
 	margin-top:10px;
 	margin-bottom:10px;
+	display:inline-block;
+	text-align:center;
 }
 h1:after{
 	position:absolute;
@@ -70,7 +75,7 @@ h1:after{
 	width:350px;
 	background-color:red;
 	top:35px;
-	left:15%;
+	left:150px;
 }
 h1:before{
 	position:absolute;
@@ -80,7 +85,7 @@ h1:before{
 	width:350px;
 	background-color:red;
 	top:35px;
-	right:15%;
+	right:150px;
 }
 h1>p{
 	font-size:14px;
